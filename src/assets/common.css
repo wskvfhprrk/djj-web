@@ -1,0 +1,126 @@
+/* page */
+html,body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  font-size: 14px;
+  overflow: hidden;
+}
+*{
+margin:0px ;
+padding: 0px;
+}
+.g-center{
+  display: table-cell;
+
+  vertical-align: middle;
+}
+.page{
+  margin: 20px 0 0;
+
+  text-align: center;
+}
+
+.operation{
+  padding-left: 40px;
+}
+.title{
+ margin-bottom: 15px;
+ border-bottom: 2px solid #eee;
+ padding-bottom: 15px;
+}
+.addBtn{
+position: absolute;
+right: 30px;
+top: -10px;
+}
+/*搜索条件  宽度控制*/
+.SearchInput{
+width: 70%!important;
+float:left;
+}
+.labelSpan{
+width: 30%;
+float: left;
+height: 40px;
+line-height:40px;
+}
+.marginBottom{
+margin-bottom: 10px;
+height: 40px
+}
+.g-head{
+background: #07192b!important;
+border-bottom: 2px solid #3b4275;
+}
+.el-button--primary{
+background-color: #07192b!important;
+border-color:#07192b!important;
+border-radius: 10%;
+}
+.el-button--primary:focus, .el-button--primary:hover {
+  background: #293a4d!important;
+}
+.el-select-dropdown__item.selected{
+color: #07192b!important;
+}
+.el-date-table td.today.end-date span, .el-date-table td.today.start-date span{
+color: #fff!important;
+}
+.el-date-table td.today span{
+ color: #07192b!important;
+}
+.el-date-table td.end-date span, .el-date-table td.start-date span{
+background-color: #07192b!important;
+}
+.el-pagination.is-background .el-pager li:not(.disabled).active{
+background-color:  #07192b!important;
+}
+.el-menu,.el-menu--inline{
+background: #07192b!important;
+}
+.el-submenu__title:hover,.el-submenu__title:focus {
+  background-color: #183452;
+}
+.el-menu-item:focus, .el-menu-item:hover {
+  outline: 0;
+  background-color: #183452;
+}
+.el-menu-item, .el-submenu__title span{
+color: #fff!important
+}
+.el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner{
+  background-color: #07192b!important;
+  border-color: #07192b!important
+}
+
+.el-table__row td{
+  padding: 5px 0px;
+}
+.searchBox{
+  background: #fff;
+  overflow: hidden;
+  padding: 10px 10px 0px ;
+  border-radius: 10px ;
+  box-shadow: 5px 5px 5px #f1f1f1;
+  margin-bottom: 5px;
+  border: 1px solid #f5f5f5;
+}
+.resultBox{
+  background: #fff;
+  padding:15px 10px;
+  border-radius: 10px ;
+  box-shadow: 5px 5px 5px #f1f1f1;
+  margin-bottom: 45px;
+  border: 1px solid #f5f5f5;
+}
+.el-loading-mask{
+  z-index: 888888;
+}
+.el-message{
+  z-index: 999999999999999999999;
+}
+.el-button--mini, .el-button--small{
+  font-size: 14px;
+}

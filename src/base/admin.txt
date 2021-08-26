@@ -1,0 +1,3 @@
+china.js ´æ·Å  echarts/map/js
+
+shenzhen.js ´æ·Å echarts/map/js/province
