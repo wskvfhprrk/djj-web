@@ -110,7 +110,7 @@
         <!-- 用户信息 -->
         <el-header>
             <el-row type="flex" class="g-head">
-                <a target="_blank" title="首页" class="logo">花博会主题彩票纪念册营销活动抽奖验证系统</a>
+                <a target="_blank" title="首页" class="logo">代金券系统管理后台</a>
                 <div class="nav">
                     <div class="usermenu">
                         欢迎您：{{user?user.username:''}}

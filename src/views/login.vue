@@ -29,7 +29,7 @@
   <div>
     <div class="g-center login-page" @keyup.enter="login">
       <el-form class="login-form">
-        <h1 class="main-title">花博会主题彩票纪念册营销活动抽奖验证系统 </h1>
+        <h1 class="main-title">代金券系统管理后台 </h1>
         <!-- <p class="des">后台管理系统欢迎您的登录</p> -->
         <div class="bgBox">
           <h4 class="login_title">登 录</h4>
